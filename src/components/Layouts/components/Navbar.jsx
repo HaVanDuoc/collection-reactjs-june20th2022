@@ -1,9 +1,14 @@
+import { AppBar, Toolbar } from '@mui/material'
 import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
+    <AppBar position='static'>
+      <Toolbar>
+        Navbar
+      </Toolbar>
+    </AppBar>
+  );
 }
 
 export default Navbar
